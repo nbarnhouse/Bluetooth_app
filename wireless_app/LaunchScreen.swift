@@ -1,15 +1,15 @@
 //
-//  ContentView.swift
+//  LaunchScreen.swift
 //  wireless_app
 //
-//  Created by Nicole Barnhouse on 4/3/23.
+//  Created by Nicole Barnhouse on 4/5/23.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct LaunchScreen: View {
     var body: some View {
-
+        
         ZStack{
             
             Color("back_color")
@@ -21,11 +21,15 @@ struct ContentView: View {
                     .font(.custom("DollieScript", size: 46))
             }
         }
-}
+        
+        
+        
+    }
+    
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LaunchScreen_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LaunchScreen()
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		585393E829DE246C00952800 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585393E729DE246C00952800 /* LaunchScreen.swift */; };
+		585393EB29DE285100952800 /* DollieScript.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 585393EA29DE285100952800 /* DollieScript.ttf */; };
+		585393ED29DE2A6B00952800 /* NextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585393EC29DE2A6B00952800 /* NextScreen.swift */; };
 		58F6459C29DBC677000820B2 /* wireless_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F6459B29DBC677000820B2 /* wireless_appApp.swift */; };
 		58F6459E29DBC677000820B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F6459D29DBC677000820B2 /* ContentView.swift */; };
 		58F645A029DBC678000820B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F6459F29DBC678000820B2 /* Assets.xcassets */; };
@@ -14,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		585393E729DE246C00952800 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		585393E929DE27A700952800 /* wireless-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "wireless-app-Info.plist"; sourceTree = SOURCE_ROOT; };
+		585393EA29DE285100952800 /* DollieScript.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DollieScript.ttf; sourceTree = "<group>"; };
+		585393EC29DE2A6B00952800 /* NextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextScreen.swift; sourceTree = "<group>"; };
 		58F6459829DBC677000820B2 /* wireless_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wireless_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F6459B29DBC677000820B2 /* wireless_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wireless_appApp.swift; sourceTree = "<group>"; };
 		58F6459D29DBC677000820B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,9 +58,13 @@
 		58F6459A29DBC677000820B2 /* wireless_app */ = {
 			isa = PBXGroup;
 			children = (
+				585393E929DE27A700952800 /* wireless-app-Info.plist */,
 				58F6459B29DBC677000820B2 /* wireless_appApp.swift */,
 				58F6459D29DBC677000820B2 /* ContentView.swift */,
+				585393EC29DE2A6B00952800 /* NextScreen.swift */,
+				585393E729DE246C00952800 /* LaunchScreen.swift */,
 				58F6459F29DBC678000820B2 /* Assets.xcassets */,
+				585393EA29DE285100952800 /* DollieScript.ttf */,
 				58F645A129DBC678000820B2 /* Preview Content */,
 			);
 			path = wireless_app;
@@ -127,6 +138,7 @@
 			files = (
 				58F645A329DBC678000820B2 /* Preview Assets.xcassets in Resources */,
 				58F645A029DBC678000820B2 /* Assets.xcassets in Resources */,
+				585393EB29DE285100952800 /* DollieScript.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +151,8 @@
 			files = (
 				58F6459E29DBC677000820B2 /* ContentView.swift in Sources */,
 				58F6459C29DBC677000820B2 /* wireless_appApp.swift in Sources */,
+				585393ED29DE2A6B00952800 /* NextScreen.swift in Sources */,
+				585393E829DE246C00952800 /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = PVR89A229Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wireless-app-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = PVR89A229Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wireless-app-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
