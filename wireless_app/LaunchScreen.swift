@@ -18,7 +18,7 @@ struct LaunchScreen: View {
             VStack{
                 
                 Text("for Alice")
-                    .font(.custom("DollieScript", size: 46))
+                   // .font(.custom("DollieScript"))
             }
         }
         

@@ -8,20 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var title: String = "Welcome to Hello Dreamhouse"
+    
     var body: some View {
 
         ZStack{
             
-            Color("back_color")
-                .ignoresSafeArea()
+       //     Color("back_color")
+        //        .ignoresSafeArea()
             
             VStack{
                 
-                Text("for Alice")
-                    .font(.custom("DollieScript", size: 46))
-            }
+                   Text("Welcome to Hello Dreamhouse!")
+                //       .font(.custom("DollieScript", size: 46))
+                
+                Button {
+                    self.title = "Button was pressed"
+                        
+                } label: {
+                    Text("Hello")
+                        ._addingBackgroundLayer()
+                        .cornerRadius(5)
+                    
+                }
+            } // End of VStack
+                
         }
-}
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
